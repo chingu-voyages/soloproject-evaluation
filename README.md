@@ -74,6 +74,11 @@ Solo Project evaluation.
 
 | Condition | Feedback |
 |-----------|----------|
+| Commits are atomic & commit messages are descriptive | ```* Your commits are atomic and your commit messages are descriptive. Here’s a guide I think you’ll find interesting & useful for future projects. https://chiamakaikeanyi.dev/how-to-write-good-git-commit-messages/.``` |
+| Commits are atomic, but commit messages aren’t descriptive | ```* Your commits are atomic, but some commit messages could be more descriptive. Here’s a guide I think you’ll find interesting & useful for future projects. https://chiamakaikeanyi.dev/how-to-write-good-git-commit-messages/.``` |
+| Commits aren’t atomic, but commit messages are descriptive | ```* Your commits aren’t atomic, but your commit messages are descriptive. Here’s a guide I think you’ll find interesting & useful for future projects. https://chiamakaikeanyi.dev/how-to-write-good-git-commit-messages/.``` |
+| Commits aren’t atomic and commit messages aren’t descriptive | ```* Your commits aren’t atomic and your commit messages could be more descriptive. Here’s a guide I think you’ll find interesting & useful for future projects. https://chiamakaikeanyi.dev/how-to-write-good-git-commit-messages/.``` |
+| Files have been uploaded to GitHub rather than by using git | ```* Changes appear to be made directly to GitHub using file uploads. Suggest using git so individual commits/changes can be tracked. Here’s more information on how to use git & GitHub to provide better tracking and change management. https://docs.github.com/en/get-started/using-git/about-git``` |
 
 ---
 
