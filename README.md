@@ -19,6 +19,11 @@ practices we find that they are doing well.
 3. Provide feedback that is consistent & fair, regardless of who performs the
 Solo Project evaluation.
 
+Keep in mind that we don't do strict, university-style evaluations. We don't 
+expect Solo Projects to be perfect apps. We actually want members to pass if 
+their project has a readme and works properly, even though it may contain minor
+flaws.
+
 ## Evaluation Conditions & Feedback
 
 * [Project Evaluation Results](#project-evaluation-results)
@@ -32,6 +37,8 @@ Solo Project evaluation.
 * [UI/UX](#uiux)
 * [Career](#career)
 
+In these tables the `Feedback` column is formatted as code since they may
+contain Markdown syntax.
 
 ### Project Evaluation Results
 
