@@ -46,6 +46,7 @@ Solo Project evaluation.
 
 [Back to TOC](#evaluation-conditions--feedback)
 
+
 ### Tier
 
 | Condition | Feedback |
@@ -55,6 +56,7 @@ Solo Project evaluation.
 ---
 
 [Back to TOC](#evaluation-conditions--feedback)
+
 
 ### Readme
 
@@ -70,6 +72,7 @@ Solo Project evaluation.
 
 [Back to TOC](#evaluation-conditions--feedback)
 
+
 ### Commits
 
 | Condition | Feedback |
@@ -83,6 +86,7 @@ Solo Project evaluation.
 ---
 
 [Back to TOC](#evaluation-conditions--feedback)
+
 
 ### Repo
 
@@ -105,14 +109,21 @@ Solo Project evaluation.
 
 [Back to TOC](#evaluation-conditions--feedback)
 
+
 ### HTML/CSS
 
 | Condition | Feedback |
 |-----------|----------|
-
+| Script tag in wrong location | ```* In `index.html`  you might want to move the `<script>` tag to the end of the `<body>` section or to use the `defer` attribute on the `<script>` tag to prevent blocking during initial page load. You can learn more about this option here https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script#attr-async``` |
+| Add defer attribute to script | ```* In `index.html`  you might want to move the `<script>` tag to the end of the `<body>` section or to use the `defer` attribute on the `<script>` tag to prevent blocking during initial page load. You can learn more about this option here https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script#attr-async``` |
+| Good use of semantic HTML | ```* You have made good use of semantic HTML. This is a good best practice to follow since it provides meaning to the elements on the page, which is better than any code comments. https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html``` |
+| Needs semantic HTML | ```* Your HTML is good, but could be even better by using semantic tags. This is a good best practice to follow since it provides meaning to the elements on the page, which is better than any code comments. https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html``` |
+| JS embedded in HTML files	| ```* Instead of embedding your Javascript in the HTML files it's an industry best practice to place them in .js files in a src directory in your repo. This doesn't impact the operation of the app, but it makes the code easier to find and troubleshoot. Something you'll appreciate as the app grows in size.``` |
+| Large CSS file | ```* Your main CSS file, ``, is quite large. Breaking this up into multiple files, for example one for a master layout and other for individual pages and components, will help make troubleshooting somewhat easier. In addition, separate file names helps to add contextual meaning to their contents.``` |
 ---
 
 [Back to TOC](#evaluation-conditions--feedback)
+
 
 ### Code
 
@@ -122,6 +133,8 @@ Solo Project evaluation.
 ---
 
 [Back to TOC](#evaluation-conditions--feedback)
+
+
 ### Automated Tests
 
 | Condition | Feedback |
@@ -130,6 +143,7 @@ Solo Project evaluation.
 ---
 
 [Back to TOC](#evaluation-conditions--feedback)
+
 
 ### UI/UX
 
@@ -140,12 +154,12 @@ Solo Project evaluation.
 
 [Back to TOC](#evaluation-conditions--feedback)
 
+
 ### Career
 
 | Condition | Feedback |
 |-----------|----------|
 | Consider adding professional & social links | ```* Consider adding your social & professional links, like GitHub, Twitter, & LinkedIn, to your webpage. This is especially important if you’ll be sharing this app with potential employers. You want to make it easy for them to learn more about you.``` |
-
 
 ---
 
