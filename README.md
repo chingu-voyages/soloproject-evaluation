@@ -229,7 +229,6 @@ modification.
 
 ### Passed
 
-```
 Hi @<Discord-name>. Congratulations on your hard work and dedication. Your Voyage 45 Solo Project has been accepted and you are advancing to the Voyage Phase starting on August 7th. Watch the <#1026584387569078373> channel for more information. 
 
 **_If you haven't yet signed up for Voyage 45 complete this form so you don't miss out_** —> https://forms.gle/DajSfXQCX4qbMAu8A
@@ -263,13 +262,13 @@ Here is some more specific feedback which I hope will be helpful:
 * In the browsers console log an error message indicates you have a missing favicon. To correct this you can either add a favicon ( http://www.faviconcodegenerator.com/ ) or suppress the error message ( http://www.faviconcodegenerator.com/prevent-favicon-404-error.php ).
 
 * Consider adding your social & professional links, like GitHub, Twitter, & LinkedIn, to your webpage. This is especially important if you’ll be sharing this app with potential employers. You want to make it easy for them to learn more about you.										
-```
+
+---
 
 [Back to TOC](#table-of-contents)
 
 ### Changes Required
 
-```
 Hi @<Discord-name>. Your app shows that you’ve invested a considerable amount of thought and effort in its design & implementation. 
 
 Please make the following change and then DM me here when you are ready for me to look at it again. **_This is the only change you are required to make._**
@@ -300,6 +299,7 @@ Please make the following change and then DM me here when you are ready for me t
 * There are some application features & functions that are not working (eg. project links). Make sure you address this before sharing this in an interview since you want applications you share with potential employers to be fully functional and free of defects.
 
 * Consider adding your social & professional links, like GitHub, Twitter, & LinkedIn, to your webpage. This is especially important if you’ll be sharing this app with potential employers. You want to make it easy for them to learn more about you.										
-```
+
+---
 
 [Back to TOC](#table-of-contents)
