@@ -165,6 +165,7 @@ Solo Project evaluation.
 
 | Condition | Feedback |
 |-----------|----------|
+| Good use of automated testing | ```* You have done a good job creating automated tests to validate basic app functionality. Here’s advice from one of my favorite authors for testing JS applications https://testingjavascript.com/```
 
 ---
 
