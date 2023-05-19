@@ -4,6 +4,7 @@
 
 * [Overview](#overview)
 * [Evaluation Conditions & Feedback](#evaluation-conditions--feedback)
+* [Example Feedback](#example-feedback)
 
 ## Overview
 
@@ -217,3 +218,88 @@ contain Markdown syntax.
 ---
 
 [Back to TOC](#evaluation-conditions--feedback)
+
+## Example Feedback 
+
+Evaluators use the evaluation conditions & feedback above to build messages with
+their feedback, which is DM'ed to the Solo Project creator in Discord. The
+following examples show messages that were sent to a creator whose projects 
+passed the evaluation and to a creator whose Solo Project required a 
+modification.
+
+### Passed
+
+```
+Hi @<Discord-name>. Congratulations on your hard work and dedication. Your Voyage 45 Solo Project has been accepted and you are advancing to the Voyage Phase starting on August 7th. Watch the <#1026584387569078373> channel for more information. 
+
+**_If you haven't yet signed up for Voyage 45 complete this form so you don't miss out_** —> https://forms.gle/DajSfXQCX4qbMAu8A
+
+I’m looking forward to seeing what you and your team will be creating in your Voyage! 
+
+https://c.tenor.com/bDxOr4tSm7kAAAAC/spongebob-high-five.gif
+
+Here is some more specific feedback which I hope will be helpful:
+
+* This Solo Project is a Tier 1, rather than a Tier 2 app, so you are eligible to join the next Voyage as a Tier 1 participant. You can learn more about our tiers and the requirements of each here —> https://chingucohorts.notion.site/Solo-Projects-2a41ff900cc24a72a919f0eb5e79c42b
+
+* Your repo contains a readme that could be even better with a few changes.  This is an important part of any project and here’s additional info to show how to structure a well-written readme.  https://medium.com/chingu/keys-to-a-well-written-readme-55c53d34fe6d. 
+
+* Your commits aren’t atomic, but your commit messages are descriptive. Here’s a guide I think you’ll find interesting & useful for future projects. https://chiamakaikeanyi.dev/how-to-write-good-git-commit-messages/.
+
+* I suggest you move the source code files in the `docs` directory into the root of your repo in future projects. This directory currently adds an extra, unnecessary directory level to the project and moving it will make understanding the app easier. Here’s some additional info that may be interesting https://dev.to/alexsergey/project-structure-repository-and-folders-review-of-approaches-4kh2
+
+* Your code is readable & maintainable. This is very important since you'll spend more time maintaining an app than writing it. I guarantee that in just a few weeks you'll forget the details you know today. Anything you can do to improve readability & maintainability is a gift to your ""future self"". 
+
+* There is some commented out code in your source files (such as in `docs/app.js`).  Even though this doesn’t affect the operation of the app it can make troubleshooting and debugging more difficult.
+
+* Good use of vanilla JS to manipulate the DOM. This is an important skill to master and one that will help when you start to learn FE frameworks like React, VueJS, SvelteJS, etc.
+
+* Your HTML is good, but could be even better by using semantic tags. This is a good best practice to follow since it provides meaning to the elements on the page, which is better than any code comments. https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html
+
+* UI/UX is clear, concise, & engaging. Here’s a set of principles I hope you will find helpful for future projects. https://www.justinmind.com/ui-design/principles
+
+* Your app is responsive. This is important given the fact that many users rely on mobile devices. Here’s some information that may help you understand this for your future apps  https://developers.google.com/web/fundamentals/design-and-ux/responsive/.
+
+* In the browsers console log an error message indicates you have a missing favicon. To correct this you can either add a favicon ( http://www.faviconcodegenerator.com/ ) or suppress the error message ( http://www.faviconcodegenerator.com/prevent-favicon-404-error.php ).
+
+* Consider adding your social & professional links, like GitHub, Twitter, & LinkedIn, to your webpage. This is especially important if you’ll be sharing this app with potential employers. You want to make it easy for them to learn more about you.										
+```
+
+[Back to TOC](#table-of-contents)
+
+### Changes Required
+
+```
+Hi @<Discord-name>. Your app shows that you’ve invested a considerable amount of thought and effort in its design & implementation. 
+
+Please make the following change and then DM me here when you are ready for me to look at it again. **_This is the only change you are required to make._**
+
+* You haven’t included a usable readme in your repo. This is a critical part of any project and here’s additional info to show how to structure a well-written readme.  https://medium.com/chingu/keys-to-a-well-written-readme-55c53d34fe6d. 
+
+
+**Here’s additional feedback that I hope will be helpful.**
+
+* Your commits are atomic and your commit messages are descriptive. Here’s a guide I think you’ll find interesting & useful for future projects. https://chiamakaikeanyi.dev/how-to-write-good-git-commit-messages/.
+
+* I suggest you look at adding source code files to a `src` directory in the root of your repo in future projects. This has little benefit on a project of this size, but for more projects with many source files the organization it adds will make understanding the app easier. Here’s some additional info that may be interesting https://dev.to/alexsergey/project-structure-repository-and-folders-review-of-approaches-4kh2
+
+* Your code is readable & maintainable. This is very important since you'll spend more time maintaining an app than writing it. I guarantee that in just a few weeks you'll forget the details you know today. Anything you can do to improve readability & maintainability is a gift to your ""future self"". 
+
+* In `index.html`  you might want to move the `<script>` tag to the end of the `<body>` section or to use the `defer` attribute on the `<script>` tag to prevent blocking during initial page load. You can learn more about this option here https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script#attr-async
+
+* Your HTML is good, but could be even better by using semantic tags. This is a good best practice to follow since it provides meaning to the elements on the page, which is better than any code comments. https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html
+
+* Good use of vanilla JS to manipulate the DOM. This is an important skill to master and one that will help when you start to learn FE frameworks like React, VueJS, SvelteJS, etc.
+
+* UI/UX is clear, concise, & engaging. Here’s a set of principles I hope you will find helpful for future projects. https://www.justinmind.com/ui-design/principles
+
+* Your app isn’t responsive. This is important given the fact that many users rely on mobile devices. Here’s some information that may help you understand this for your future apps  https://developers.google.com/web/fundamentals/design-and-ux/responsive/.
+
+* In the browsers console log an error message indicates you have a missing favicon. To correct this you can either add a favicon ( http://www.faviconcodegenerator.com/ ) or suppress the error message ( http://www.faviconcodegenerator.com/prevent-favicon-404-error.php ).
+
+* There are some application features & functions that are not working (eg. project links). Make sure you address this before sharing this in an interview since you want applications you share with potential employers to be fully functional and free of defects.
+
+* Consider adding your social & professional links, like GitHub, Twitter, & LinkedIn, to your webpage. This is especially important if you’ll be sharing this app with potential employers. You want to make it easy for them to learn more about you.										
+```
+
+[Back to TOC](#table-of-contents)
