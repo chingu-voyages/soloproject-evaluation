@@ -41,6 +41,9 @@ flaws.
 In these tables the `Feedback` column is formatted as code since they may
 contain Markdown syntax.
 
+In addition, you should use the `Importance` column to determine the relative
+importance of the various evaluation conditions.
+
 ### Project Evaluation Results
 
 | Condition | Feedback |
