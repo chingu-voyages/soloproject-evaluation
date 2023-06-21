@@ -59,11 +59,13 @@ importance of the various evaluation conditions.
 
 
 ### Tier
-
+Tier 1 - scripting language; 
+Tier 2 - frontend framework; 
+Tier 3 - backend or database
 | Condition | Importance | Feedback |
 |-----------|------------|----------|
 | App doesn’t match selected tier | High | ```* This Solo Project is a Tier 2, rather than a Tier 3 app, so you are eligible to join the next Voyage as a Tier 2 participant. You can learn more about our tiers and the requirements of each here —> https://chingucohorts.notion.site/Solo-Projects-2a41ff900cc24a72a919f0eb5e79c42b``` |
-
+| Project doesn’t contain any scripting language files (e.g. Javascript, Ruby, PHP, Python, etc.) (Request Change)| High | ```* App shows you understand CSS & HTML, but doesn't contain any scripting such as Javascript, PHP, Python, Ruby, etc. Scripting is important in a Voyage. **_Please add something like a floating scroll to top button implemented in JS to one of the pages._** ``` |
 ---
 
 [Back to TOC](#evaluation-conditions--feedback)
@@ -158,7 +160,6 @@ importance of the various evaluation conditions.
 | Needs more descriptive variable names	| High | ```* Consider using variable & constant names that are more descriptive. This makes the code more readable by adding context, which can be more effective than any code comment. https://www.brainstobytes.com/writing-good-variable-names/``` |
 | Good choice of descriptive variable names	| High | ```* You have done a good job selecting variable & constant names that are descriptive. This makes the code more readable by adding context, which can be more effective than any code comment. https://www.brainstobytes.com/writing-good-variable-names/``` |
 | Good use of vanilla JS to manipulate the DOM | High | ```* Good use of vanilla JS to manipulate the DOM. This is an important skill to master and one that will help when you start to learn FE frameworks like React, VueJS, SvelteJS, etc.``` |
-| Project doesn’t contain any scripting language files (e.g. Javascript, Ruby, PHP, Python, etc.) | High | ```* App shows you understand CSS & HTML, but doesn't contain any scripting such as Javascript, PHP, Python, Ruby, etc. Scripting is important in a Voyage. **_Please add something like a floating scroll to top button implemented in JS to one of the pages._** ``` |
 | Hardcoded server URL in FE | Low | ```* In `` you have hardcoded the URL to a BE server/service. This can increase maintenance time since a change to a URL will require updates to one or more source files + additional test time. Instead, consider placing URL’s in environment variables so they can be modified with no code changes.``` |
 | Good attributions for copied code | High | ```* Good work including attributions to code copied from other sources. This shows professional courtesy to other Developers and is much appreciated. ``` |
 | Used `var` instead of `const/let` | Medium | ```* In `script.js` you have used `var` instead of `const/let`. This doesn’t impact how the app runs, but is a good defensive practice to adopt. This article explains the difference between the and why `const/let` are favored over `var` in modern JS. https://tinyurl.com/y5zj33d7``` |
