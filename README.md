@@ -37,6 +37,7 @@ flaws.
 * [Automated Tests](#automated-tests)
 * [UI/UX](#uiux)
 * [Career](#career)
+* [Product Owners](#product-owners)
 
 In these tables, the `Feedback` column is formatted as code since they may
 contain Markdown syntax.
@@ -48,7 +49,7 @@ importance of the various evaluation conditions.
 
 | Condition | Feedback |
 |-----------|----------|
-| Passed | Hi @  Congratulations on your hard work and dedication. Your Voyage 45 Solo Project has been accepted and you are advancing to the Voyage Phase starting on August 7th. Watch the <#1026584387569078373> channel for more information. <br/><br/> ```**_If you haven't yet signed up for Voyage 45 complete this form so you don't miss out _** ``` —> https://forms.gle/DajSfXQCX4qbMAu8A <br/><br/>I’m looking forward to seeing what you and your team will be creating in your Voyage! <br/><br/>https://c.tenor.com/bDxOr4tSm7kAAAAC/spongebob-high-five.gif <br/><br/>Here is some more specific feedback which I hope will be helpful: |
+| Passed | Hi @  Congratulations on your hard work and dedication. Your Voyage 45 Solo Project has been accepted and you are advancing to the Voyage Phase starting on August 7th. Watch the <#1026584387569078373> channel for more information. <br/><br/> ```**_If you haven't yet signed up for Voyage 45 complete this form so you don't miss out _** ``` —> https://forms.gle/DajSfXQCX4qbMAu8A <br/><br/>I’m looking forward to seeing what you and your team will be creating in your Voyage! <br/><br/>https://c.tenor.com/bDxOr4tSm7kAAAAC/spongebob-high-five.gif <br/><br/>Here is some more specific feedback which I hope will be helpful: </br> |
 | Requested changes | Hi @  Your app shows that you’ve invested a considerable amount of thought and effort in its design & implementation. <br/><br/>Please make the following change and then open a ticket in <#1105911757177888908> when you are ready for me to look at it again. ``` **_This is the only change you are required to make._** ``` <br/><br/>```__**Requested changes**__```<br/> 1. ... <br/><br/>**Here’s additional feedback that I hope will be helpful**. |
 | Requested changes - no deployed URL | I started to review your Solo Project, but you haven’t provided a valid URL for where it’s deployed on the Internet. <br/><br/>We ask for this so we can not only look at your code, but also the running application and its UI/UX. In addition, knowing how to deploy to a web host like GitHub Pages, Netlify, Vercel, Render, etc. is a skill you’ll need in your Voyage. <br/><br/>Please open a ticket in <#1105911757177888908> when you have this URL and we'll start the evaluation. Thanks! |
 | Repo URL not found |	I started to review your Solo Project, but the URL you’ve provided for your repo is not found (HTTP/404). <br/><br/>This often happens if the repo is marked as private in GitHub instead of public. <br/><br/>Please open a ticket in <#1105911757177888908> when you have this URL and we'll start the evaluation. Thanks! |
@@ -223,6 +224,22 @@ Tier 3 - backend or database
 | Condition | Importance | Feedback |
 |-----------|------------|----------|
 | Consider adding professional & social links | Low | ```* Consider adding your social & professional links, like GitHub, Twitter, & LinkedIn, to your webpage. This is especially important if you’ll be sharing this app with potential employers. You want to make it easy for them to learn more about you.``` |
+
+---
+
+[Back to TOC](#evaluation-conditions--feedback)
+
+### Product Owners
+
+| Condition | Importance | Feedback |
+|-----------|------------|----------|
+| Good Kanban board | High | ```* You have done a good job creating a Kanban backlog a team could use to visually see what tasks are needed to complete a project and their status. Having a shared, single source of "truth" is very important for any project.``` |
+| Kanban board needs improvement | High | ```* You have done a good job outlining the tasks, but organizing them visually in a Kanban-style board would help make it easier for a team to see the tasks and their relationship to one another and status. Tools that can make this easy to do include Trello, GitHub Projects, and Jira. Here's an article that describes the process in more detail.``` |
+| Good epics/stories/tasks | High | ```* You've also done a good job creating User Stories for each of the requirements. These are also important because the provide Developers with the definition of what users need rather than how to do it. All too often Developers concentrate more on technology that the fact that an app must solve a user problem.``` |
+| Epic/stories/tasks need improvement | High | ```* You'll want to organize the work that needs to be complete in Epics,  User Stories, or tasks for each of the requirements. These are also important because the provide Developers with the definition of what users need rather than how to do it. All too often Developers concentrate more on technology that the fact that an app must solve a user problem.``` |
+| Task titles | Medium | ```* I liked the fact that you created a short title for each story/task to summarize it, while including the details itself in the body of the task. This helps to make the board easier to read when you have a lot of tasks in a project.``` |
+| No acceptance/test criteria | High | ```* Consider adding Acceptance Criteria and or Test Criteria with your tasks. You wouldn't believe how often teams waste time trying to decide whether or not they are done. This also helps Developers create accurate tests to validate the functionality they've created.``` |
+| No dependencies | High | ```* Something else to consider adding to your tasks are the parent/child dependencies between them. I once read that managing projects is more about managing dependencies than managing individual tasks.``` |
 
 ---
 
