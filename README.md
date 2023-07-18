@@ -241,7 +241,8 @@ Tier 3 - backend or database
 | Task titles need improvement | Medium | ```* The title for each story/task summarize the work item, not include all of the details. You should include details, like the user story itself in the body of the task rather than in its title. This helps to make the board easier to read when you have a lot of tasks in a project.``` |
 | Good acceptance/test criteria | High | ```* You have done a good job defining what the Acceptance Criteria and Test Criteria are for the work to be performed. You wouldn't believe how often teams waste time trying to decide whether or not they are done. This also helps Developers create accurate tests to validate the functionality they've created.``` |
 | No acceptance/test criteria | High | ```* Consider adding Acceptance Criteria and or Test Criteria with your tasks. You wouldn't believe how often teams waste time trying to decide whether or not they are done. This also helps Developers create accurate tests to validate the functionality they've created.``` |
-| No dependencies | High | ```* Something else to consider adding to your tasks are the parent/child dependencies between them. I once read that managing projects is more about managing dependencies than managing individual tasks.``` |
+| Good dependency mapping | High | ```* You have done a good job adding parent/child dependencies between your epics/stories/tasks. In many ways project ownership is about managing the dependencies between tasks more than the tasks themselves.``` |
+| No dependencies | High | ```* Something else to consider adding to your tasks are the parent/child dependencies between them. In many ways project ownership is about managing the dependencies between tasks more than the tasks themselves. This is because for development to be efficient it's important to not just complete a task, but to complete it in the right order so Developers aren't waiting on one another.``` |
 
 ---
 
