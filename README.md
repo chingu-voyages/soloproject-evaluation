@@ -172,6 +172,7 @@ Tier 3 - backend or database
 | Magic numbers used | Low | ```* You should consider using constants in place of "magic" numbers to provide contextual meaning (e.g. `request: 10000` in `location.js`). This is often better than any code comment. Here's additional info on magic numbers https://jeffreyeverhart.com/2020/09/28/javascript-tips-using-named-constants-for-magic-numbers/#:~:text=What Are Magic Numbers%3F, replaced by a named constant.&text=Date.,-.``` |
 | Implemented common code	| Low | ```* Good work implementing your own functions for dealing with date formatting instead of relying on a library. Although there’s nothing wrong with using a library they often contain far more functions than what you need for something like this, which increases your bundle size.``` |
 | Switch/case statements | Low | ```* In `` you have made effective use of switch/case statements. But, for future projects consider encoding the information in an array of JS objects and searching to find the desired result. This doesn't improve performance, but it does make for less code and is straightforward to implement.``` |
+| Too many global variables | High | ```* Global variables should be avoided when possible. It should only be used for static values in most cases. Functions should return values instead of updating global values. https://www.baeldung.com/cs/global-variables``` |
 ---
 
 [Back to TOC](#evaluation-conditions--feedback)
