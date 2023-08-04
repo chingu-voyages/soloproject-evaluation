@@ -173,6 +173,7 @@ Tier 3 - backend or database
 | Implemented common code	| Low | ```* Good work implementing your own functions for dealing with date formatting instead of relying on a library. Although there’s nothing wrong with using a library they often contain far more functions than what you need for something like this, which increases your bundle size.``` |
 | Switch/case statements | Low | ```* In `` you have made effective use of switch/case statements. But, for future projects consider encoding the information in an array of JS objects and searching to find the desired result. This doesn't improve performance, but it does make for less code and is straightforward to implement.``` |
 | Too many global variables | High | ```* Global variables should be avoided when possible. It should only be used for static values in most cases. Functions should return values instead of updating global values. https://www.baeldung.com/cs/global-variables``` |
+| Next.js - Mixing App and Pages router | High | ```* I noticed you are using both app and pages router. In the nextjs docs it is recommended that only use one of them. `Good to know: Although you can use both routers in the same project, routes in app will be prioritized over pages. We recommend using only one router in your new project to avoid confusion.` https://nextjs.org/docs/getting-started/installation#the-pages-directory-optional``` |
 ---
 
 [Back to TOC](#evaluation-conditions--feedback)
