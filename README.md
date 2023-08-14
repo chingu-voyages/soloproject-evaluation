@@ -218,6 +218,8 @@ Tier 3 - backend or database
 | UI isn’t accessible - no [alt] | Medium | ```* Your UI has some accessibility issues. Specifically, image elements don’t have an [alt] attribute. This is important since it makes it usable for users with different types of impairments, such as those with color blindness. Here’s a good resource if you want to learn more about the concept & practice of designing accessible websites: https://www.a11yproject.com/``` |
 | Improve Internationalization | Low | ```* Your page HTML doesn’t contain a lang attribute, which allows screen readers to read the page in the users default language. This is important for users with vision impairments who rely on screen readers. You can learn more about this attribute here https://dequeuniversity.com/rules/axe/4.4/html-has-lang?utm_source=lighthouse&utm_medium=devtools``` |
 | Contrast | High | ```* Another item to consider is color contrast. You can learn more about this and validate the combination of colors, such as button background & text color choices using this tool. https://color.a11y.com/``` |
+| Images w/o width & height | Medium |```*You have some image elements that don't have explicit width and height specified. Adding these to your HTML will help to reduce layout shifts and improve CLS. https://web.dev/optimize-cls/?utm_source=lighthouse&utm_medium=devtools#images-without-dimensions``` |
+| Cache policy | Medium | ```* You should consider adding a cache policy for static assets to speed up page loads for return visitors to your site. https://developer.chrome.com/docs/lighthouse/performance/uses-long-cache-ttl/?utm_source=lighthouse&utm_medium=devtools#how-to-cache-static-resources-using-http-caching``` |
 ---
 
 [Back to TOC](#evaluation-conditions--feedback)
