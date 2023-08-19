@@ -66,6 +66,7 @@ Tier 3 - backend or database
 | Condition | Importance | Feedback |
 |-----------|------------|----------|
 | App doesn’t match selected tier | High | ```* This Solo Project is a Tier 2, rather than a Tier 3 app, so you are eligible to join the next Voyage as a Tier 2 participant. You can learn more about our tiers and the requirements of each here —> https://chingucohorts.notion.site/Solo-Projects-2a41ff900cc24a72a919f0eb5e79c42b``` |
+| AI generated app | High | ```* This Solo Project was created using and AI tool. We don't accept apps generated using AI since we want to understand your Web Dev skills - not the AI's skill. You can learn more about our tiers and the requirements of each here —> https://chingucohorts.notion.site/Solo-Projects-2a41ff900cc24a72a919f0eb5e79c42b``` |
 | Project doesn’t contain any scripting language files (e.g. Javascript, Ruby, PHP, Python, etc.) (Request Change)| High | ```* App shows you understand CSS & HTML, but doesn't contain any scripting such as Javascript, PHP, Python, Ruby, etc. Scripting is important in a Voyage. **_Please add something like a floating scroll to the top button implemented in JS to one of the pages._** ``` |
 ---
 
