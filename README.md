@@ -38,6 +38,7 @@ flaws.
 * [UI/UX](#uiux)
 * [Career](#career)
 * [Product Owners](#product-owners)
+* [Data Scientists](#data-scientists)
 
 In these tables, the `Feedback` column is formatted as code since they may
 contain Markdown syntax.
@@ -253,6 +254,16 @@ Tier 3 - backend or database
 | No dependencies | High | ```* Something else to consider adding to your tasks are the parent/child dependencies between them. In many ways project ownership is about managing the dependencies between tasks more than the tasks themselves. This is because for development to be efficient it's important to not just complete a task, but to complete it in the right order so Developers aren't waiting on one another.``` |
 | No prioritization | Low | ```* Something that's helpful in scheduling work is to understand the priority of each task. This can be as simple as flagging individual work items with a priority of 'Must Have', 'Should Have', or 'Nice to Have'. During Sprint Planning understanding the priority of a work item, along with its dependencies, will help you and the team identify the order in which work items need to be completed.``` |
 | Good prioritization | Low | ```* You have done a good job of assigning a priority to each work item. During Sprint Planning understanding the priority of a work item, along with its dependencies, will help you and the team identify the order in which work items need to be completed.```
+
+---
+
+[Back to TOC](#evaluation-conditions--feedback)
+
+### Data Scientists
+
+| Condition | Importance | Feedback |
+|-----------|------------|----------|
+| Jupyter notebook needs methodoloy & analysis | High | ```* Your Jupyter notebook could be greatly improved by adding an explanation of your methodology and an analysis of the results. The raw results of data science projects aren't always obvious and the interpretation by the author is an important part of the results.``` |
 
 ---
 
