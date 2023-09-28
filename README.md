@@ -9,7 +9,7 @@
 ## Overview
 
 This repo contains a standard list of conditions and feedback for feedback
-provided to Chingu's on the [Solo Project](https://chingucohorts.notion.site/Solo-Project-Conditions-Feedback-a2597fbd2f554500ad231aeea189ffb1) they are 
+provided to Chingu's on the [Solo Project](https://github.com/chingu-voyages/Handbook/blob/main/docs/guides/soloproject/soloproject.md#1-choose-your-tier) they are 
 required to submit prior to their first Voyage.
 
 We want our feedback to achieve these goals:
@@ -50,7 +50,7 @@ importance of the various evaluation conditions.
 
 | Condition | Feedback |
 |-----------|----------|
-| Passed | Hi @  Congratulations on your hard work and dedication. Your Voyage 46 Solo Project has been accepted and you are advancing to the Voyage Phase starting on October 2nd. Watch the <#1026584387569078373> channel for more information. <br/><br/> ```**_If you haven't yet signed up for Voyage 46 complete this form so you don't miss out _** ``` —> https://forms.gle/DajSfXQCX4qbMAu8A <br/><br/>I’m looking forward to seeing what you and your team will be creating in your Voyage! <br/><br/>https://c.tenor.com/bDxOr4tSm7kAAAAC/spongebob-high-five.gif <br/><br/>Here is some more specific feedback which I hope will be helpful: </br> |
+| Passed | Hi @  Congratulations on your hard work and dedication. Your Voyage 47 Solo Project has been accepted and you are advancing to the Voyage Phase starting on January 8th. Watch the <#1026584387569078373> channel for more information. <br/><br/> ```**_If you haven't yet signed up for Voyage 47 complete this form so you don't miss out _** ``` —> https://forms.gle/DajSfXQCX4qbMAu8A <br/><br/>I’m looking forward to seeing what you and your team will be creating in your Voyage! <br/><br/>https://c.tenor.com/bDxOr4tSm7kAAAAC/spongebob-high-five.gif <br/><br/>Here is some more specific feedback which I hope will be helpful: </br> |
 | Requested changes | Hi @  Your app shows that you’ve invested a considerable amount of thought and effort in its design & implementation. <br/><br/>Please make the following change and then open a ticket in <#1105911757177888908> when you are ready for me to look at it again. ``` **_This is the only change you are required to make._** ``` <br/><br/> ```__**Requested changes**__``` <br/> 1. ... <br/><br/>```**_Here’s additional feedback that I hope will be helpful_**```. |
 | Requested changes - no GH repo URL or deployed URL | Hi @  I started to review your Solo Project, but you haven’t provided a valid URL for a specific GitHub repo or the URL where it’s deployed on the Internet. <br/><br/> Your GitHub repo URL generates a page not found error. This can happen if your repo is private instead of public. <br/><br/> We ask for this so we can not only look at your code, but also the running application and its UI/UX. In addition, knowing how to deploy to a web host like GitHub Pages, Netlify, Vercel, Render, etc. is a skill you’ll need in your Voyage. <br/><br/> Please open a ticket in <#1105911757177888908> when you have this URL and we'll start the evaluation. Thanks! |
 | Requested changes - no deployed URL | I started to review your Solo Project, but you haven’t provided a valid URL for where it’s deployed on the Internet. <br/><br/>We ask for this so we can not only look at your code, but also the running application and its UI/UX. In addition, knowing how to deploy to a web host like GitHub Pages, Netlify, Vercel, Render, etc. is a skill you’ll need in your Voyage. <br/><br/>Please open a ticket in <#1105911757177888908> when you have this URL and we'll start the evaluation. Thanks! |
@@ -67,8 +67,8 @@ Tier 2 - frontend framework;
 Tier 3 - backend or database
 | Condition | Importance | Feedback |
 |-----------|------------|----------|
-| App doesn’t match selected tier | High | ```* This Solo Project is a Tier 2, rather than a Tier 3 app, so you are eligible to join the next Voyage as a Tier 2 participant. You can learn more about our tiers and the requirements of each here —> https://chingucohorts.notion.site/Solo-Projects-2a41ff900cc24a72a919f0eb5e79c42b``` |
-| AI generated app | High | ```* This Solo Project was created using and AI tool. We don't accept apps generated using AI since we want to understand your Web Dev skills - not the AI's skill. You can learn more about our tiers and the requirements of each here —> https://chingucohorts.notion.site/Solo-Projects-2a41ff900cc24a72a919f0eb5e79c42b``` |
+| App doesn’t match selected tier | High | ```* This Solo Project is a Tier 2, rather than a Tier 3 app, so you are eligible to join the next Voyage as a Tier 2 participant. You can learn more about our tiers and the requirements of each here —> https://github.com/chingu-voyages/Handbook/blob/main/docs/guides/soloproject/soloproject.md#1-choose-your-tier``` |
+| AI generated app | High | ```* This Solo Project was created using and AI tool. We don't accept apps generated using AI since we want to understand your Web Dev skills - not the AI's skill. You can learn more about our tiers and the requirements of each here —> https://github.com/chingu-voyages/Handbook/blob/main/docs/guides/soloproject/soloproject.md#1-choose-your-tier``` |
 | Project doesn’t contain any scripting language files (e.g. Javascript, Ruby, PHP, Python, etc.) (Request Change)| High | ```* App shows you understand CSS & HTML, but doesn't contain any scripting such as Javascript, PHP, Python, Ruby, etc. Scripting is important in a Voyage. **_Please add something like a floating scroll to the top button implemented in JS to one of the pages._** ``` |
 ---
 
@@ -292,7 +292,7 @@ https://c.tenor.com/bDxOr4tSm7kAAAAC/spongebob-high-five.gif
 
 Here is some more specific feedback that I hope will be helpful:
 
-* This Solo Project is a Tier 1, rather than a Tier 2 app, so you are eligible to join the next Voyage as a Tier 1 participant. You can learn more about our tiers and the requirements of each here —> https://chingucohorts.notion.site/Solo-Projects-2a41ff900cc24a72a919f0eb5e79c42b
+* This Solo Project is a Tier 1, rather than a Tier 2 app, so you are eligible to join the next Voyage as a Tier 1 participant. You can learn more about our tiers and the requirements of each here —> https://github.com/chingu-voyages/Handbook/blob/main/docs/guides/soloproject/soloproject.md#1-choose-your-tier
 
 * Your repo contains a readme that could be even better with a few changes.  This is an important part of any project and here’s additional info to show how to structure a well-written readme.  https://medium.com/chingu/keys-to-a-well-written-readme-55c53d34fe6d. 
 
