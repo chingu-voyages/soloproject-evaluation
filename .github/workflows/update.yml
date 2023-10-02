@@ -10,6 +10,7 @@ jobs:
       with:
         url: ${{ secrets.FUNCTION_URL }}
         method: 'GET'
+        timeout: 50000
     - name: Show Response
       run: |
         echo ${{ steps.getRequest.outputs.response }}
