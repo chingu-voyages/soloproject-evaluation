@@ -1,7 +1,7 @@
 on:
   push
 jobs:
-  deployment:
+  trigger-firebase-functions:
     runs-on: ubuntu-latest
     steps:
     - name: Trigger Firebase Functions
