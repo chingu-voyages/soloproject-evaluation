@@ -269,6 +269,7 @@ Tier 3 - backend or database
 | Condition | Importance | Feedback |
 |-----------|------------|----------|
 | Jupyter notebook needs methodoloy & analysis | High | ```* Your Jupyter notebook could be greatly improved by adding an explanation of your methodology and an analysis of the results. The raw results of data science projects aren't always obvious and the interpretation by the author is an important part of the results.``` |
+| Good attributions | High | ```* Good work including attributions to the data sets you've based your analysis. This shows professional courtesy to other organizations and Developers, and it's much appreciated.``` | 
 
 ---
 
