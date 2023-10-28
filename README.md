@@ -268,6 +268,8 @@ Tier 3 - backend or database
 
 | Condition | Importance | Feedback |
 |-----------|------------|----------|
+| Good statement of problem and methodology | High | ```* You have done a good job of defining what the problem is and the methodology you intend to follow to analyze it. This is essential in Data Science projects to provide context for those who will be using your analysis and conclusions.``` |
+| Good statement of inferences & conclusions | High | ```* You have done a great job of stating the conclusions you drew from your analysis. All too often novice Data Scientists assume that the reader will be able to interpret charts and data without this. However, it's important for the Data Scientist to clearly state the results and findings since there may be subtleties that may not be obvious.``` |
 | Jupyter notebook needs methodoloy & analysis | High | ```* Your Jupyter notebook could be greatly improved by adding an explanation of your methodology and an analysis of the results. The raw results of data science projects aren't always obvious and the interpretation by the author is an important part of the results.``` |
 | Good attributions | High | ```* Good work including attributions to the data sets you've based your analysis. This shows professional courtesy to other organizations and Developers, and it's much appreciated.``` | 
 
