@@ -144,6 +144,7 @@ Tier 3 - backend or database
 | JS embedded in HTML files	| High | ```* Instead of embedding your Javascript in the HTML files it's an industry best practice to place them in .js files in a src directory in your repo. This doesn't impact the operation of the app, but it makes the code easier to find and troubleshoot. Something you'll appreciate as the app grows in size.``` |
 | Large CSS file | Medium | ```* Your main CSS file, ``, is quite large. Breaking this up into multiple files, for example, one for a master layout and the other for individual pages and components, will help make troubleshooting somewhat easier. In addition, separate file names help to add contextual meaning to their contents.``` |
 | CSS embedded in HTML file | Medium | ```* You have embedded your CSS in ``. A best practice, and one you'll find helps to organize your repo and aid in readability, is to create separate files for your CSS.``` |
+| Indentation | High | ```* I suggest adding indentation to your code to improve readability. You can read more about it here https://www.freecodecamp.org/news/how-to-indent-in-html-and-why-it-is-important/``` |
 ---
 
 [Back to TOC](#evaluation-conditions--feedback)
