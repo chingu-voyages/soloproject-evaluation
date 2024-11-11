@@ -65,14 +65,14 @@ importance of the various evaluation conditions.
 
 
 ### Tier
-Tier 1 - scripting language; 
-Tier 2 - frontend framework; 
+Tier 1 - frontend framework (beginner + teams with only developers); 
+Tier 2 - frontend framework (more advanced skills + teams with other roles); 
 Tier 3 - backend or database
 | Condition | Importance | Feedback |
 |-----------|------------|----------|
 | App doesn’t match selected tier | High | ```* This Solo Project is a Tier 2, rather than a Tier 3 app, so you are eligible to join the next Voyage as a Tier 2 participant. You can learn more about our tiers and the requirements of each here —> https://github.com/chingu-voyages/Handbook/blob/main/docs/guides/soloproject/soloproject.md#1-choose-your-tier``` |
 | AI generated app | High | ```* This Solo Project was created using and AI tool. We don't accept apps generated using AI since we want to understand your Web Dev skills - not the AI's skill. You can learn more about our tiers and the requirements of each here —> https://github.com/chingu-voyages/Handbook/blob/main/docs/guides/soloproject/soloproject.md#1-choose-your-tier``` |
-| Project doesn’t contain any scripting language files (e.g. Javascript, Ruby, PHP, Python, etc.) (Request Change)| High | ```* App shows you understand CSS & HTML, but doesn't contain any scripting such as Javascript, PHP, Python, Ruby, etc. Scripting is important in a Voyage. **_Please add something like a floating scroll to the top button implemented in JS to one of the pages._** ``` |
+| Project doesn’t contain any frontend framework (e.g. React, Vue, Svelte, etc.) (Request Change)| High | ```* App shows you understand CSS, HTML & JS, but doesn't contain any frontend framework such as React, Next.js, Vue, Svelte, etc. Frontend framework is important in a Voyage. **_Please resubmit a project using a frontend framework._** Here is a free course to get started with React: https://v2.scrimba.com/learn-react-c0e?via=chingu``` |
 ---
 
 [Back to TOC](#evaluation-conditions--feedback)
