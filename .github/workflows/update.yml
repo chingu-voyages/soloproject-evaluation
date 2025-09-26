@@ -13,4 +13,5 @@ jobs:
         timeout: 50000
     - name: Show Response
       run: |
-        echo "${{ steps.getRequest.outputs.response }}" | jq .
+        echo ${{ steps.getRequest.outputs.headers }}
+        echo ${{ steps.getRequest.outputs.status }}
